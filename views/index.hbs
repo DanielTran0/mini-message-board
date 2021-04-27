@@ -1,0 +1,11 @@
+<h1>{{title}}</h1>
+<a href='/new'>Add New Message</a>
+<div class="messageBoard">
+{{#each messages}}
+<div class="message">
+  <p class="text">{{text}}</p>
+  <h4 class="user">{{user}}</h4>
+  <p class="date">{{added}}</p>
+</div>
+{{/each}}
+</div>
